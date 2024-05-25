@@ -1,0 +1,54 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.main{
+    display: inline-block;
+    width: 100%;
+    
+}
+.nav {
+    width: 36%;
+    border: solid #FF99FF 1px;
+    float: left;
+    margin: 0 20px;
+}
+
+.subnav {
+    width: 60%;
+    margin: 0 auto;
+    border: solid #FF99FF 1px;
+    float: left;
+}
+
+.nav-heading {
+    background-color: #FF99FF;
+    padding: 10px;
+    color: white;
+}
+
+.nav-body {
+    padding: 10px;
+}
+
+.nav-body label {
+    font-weight: bold;
+}
+
+.form-group {
+    display: block;
+    margin-bottom: 20px;
+}
+
+.form-control {
+    display: block;
+    width: 98%;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.table {
+    width: 100%;
+    text-align: center;
+}
